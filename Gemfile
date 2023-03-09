@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'sinatra', '~> 1.0'
+gem 'sinatra', '~> 2.0', '>= 2.0.0'
 gem 'shotgun', :group => :reloadable
-gem 'thin', :group => :reloadable
+gem 'thin', '>= 1.7.0', :group => :reloadable
 gem 'rake'
